@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+   }
+   
+   body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: balck;
+   }
+   
+   #calc{
+    background-color: goldenrod;
+    border: 1px solid black;
+    min-height: 20vh;
+    width: 50%;
+    border-radius: 25px;
+    font-size: 25px;
+   }
+   
+   h2{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+   }
+   
+   #calc p{
+    text-align: end;
+    font-weight: bold;
+    
+   }
+   
+   .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     }
+    
+   
+   .column {
+    flex-basis: 25%;
+    margin-right: 1%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+ 
+   }
+   
+   .column1 {
+    flex-basis: 45%;
+    margin-left: 1%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+   }
+
+   #billAmount{
+     font-size: 25px;
+   }
+   #percentage{
+    font-size: 25px;
+   }
+
+   
+   
+   #Calculate{
+    background-color: cornsilk;
+    color: brown;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+   }
+   #result{
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
